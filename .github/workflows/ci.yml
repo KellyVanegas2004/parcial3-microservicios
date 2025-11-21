@@ -6,11 +6,11 @@ permissions:
 
 on:
   push:
-    branches: [ desarrollo ]
+    branches: [ main ]
     tags:
       - "v*.*.*"
   pull_request:
-    branches: [ desarrollo ]
+    branches: [ main ]
 
 jobs:
   test:
